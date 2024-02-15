@@ -30,4 +30,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2024 ammae-ahmed-butt
+[ISC](LICENSE) © 2024 ammar-ahmed-butt
