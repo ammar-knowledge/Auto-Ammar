@@ -28,6 +28,7 @@ If you have suggestions for how auto-ammar could be improved, or want to report 
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
+
 ## License
 
 [ISC](LICENSE) © 2024 ammar-ahmed-butt
