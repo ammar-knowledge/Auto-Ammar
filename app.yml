@@ -13,10 +13,10 @@
 # The list of events the GitHub App subscribes to.
 # Uncomment the event names below to enable them.
 default_events:
-  # - check_run
-  # - check_suite
-  # - commit_comment
-  # - create
+  - check_run
+  - check_suite
+  - commit_comment
+  - create
   # - delete
   # - deployment
   # - deployment_status
@@ -24,28 +24,28 @@ default_events:
   # - gollum
   # - issue_comment
   - issues
-# - label
-# - milestone
-# - member
-# - membership
-# - org_block
-# - organization
-# - page_build
-# - project
-# - project_card
-# - project_column
-# - public
-# - pull_request
-# - pull_request_review
-# - pull_request_review_comment
-# - push
-# - release
-# - repository
-# - repository_import
-# - status
-# - team
-# - team_add
-# - watch
+  # - label
+  # - milestone
+  # - member
+  # - membership
+  # - org_block
+  # - organization
+  # - page_build
+  # - project
+  # - project_card
+  # - project_column
+  # - public
+  - pull_request
+  # - pull_request_review
+  # - pull_request_review_comment
+  - push
+  # - release
+  # - repository
+  # - repository_import
+  # - status
+  # - team
+  # - team_add
+  # - watch
 
 # The set of permissions needed by the GitHub App. The format of the object uses
 # the permission name for the key (for example, issues) and the access type for
@@ -58,7 +58,7 @@ default_permissions:
 
   # Checks on code.
   # https://developer.github.com/v3/apps/permissions/#permission-on-checks
-  # checks: read
+  checks: read
 
   # Repository contents, commits, branches, downloads, releases, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-contents
@@ -82,11 +82,11 @@ default_permissions:
 
   # Pull requests and related comments, assignees, labels, milestones, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests
-  # pull_requests: read
+  pull_requests: read
 
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
-  # repository_hooks: read
+  repository_hooks: read
 
   # Manage repository projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-projects
@@ -96,7 +96,7 @@ default_permissions:
   # https://developer.github.com/v4/object/repositoryvulnerabilityalert/
   # vulnerability_alerts: read
 
-  # Commit statuses.
+  Commit statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-statuses
   # statuses: read
 
