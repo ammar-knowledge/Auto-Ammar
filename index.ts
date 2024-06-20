@@ -1,4 +1,4 @@
-import { Application, Context } from 'probot';
+import { Probot } from 'probot';
 
 const commitMessageRegex = /^(fix|feat|docs|style|refactor|test|chore|perf|ci|build|bump|release|merge|revert|wip|work in progress): .*$/;
 const pullRequestTitleRegex = /^(fix|feat|docs|style|refactor|test|chore|perf|ci|build|bump|release|merge|revert|wip|work in progress): .*$/;
